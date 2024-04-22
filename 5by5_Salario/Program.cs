@@ -1,7 +1,7 @@
 ﻿// faça um program que leia o valor atual do salário de uma pessoa e o valor com
 // acréscimo e informe a porcentagem de acrescimo que foi dado
 
-double salario1, salario2, porcent;
+float salario1, salario2, porcent;
 
 int option;
 
@@ -10,7 +10,7 @@ do
     do
     {
         Console.WriteLine("Digite o salário atual:");
-        salario1 = double.Parse(Console.ReadLine());
+        salario1 = float.Parse(Console.ReadLine());
 
         if (salario1 <= 0)
         {
@@ -21,7 +21,7 @@ do
     do
     {
         Console.WriteLine("Digite o salário com acréscimo:");
-        salario2 = double.Parse(Console.ReadLine());
+        salario2 = float.Parse(Console.ReadLine());
 
         if (salario2 <= 0)
         {

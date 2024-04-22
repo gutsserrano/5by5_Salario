@@ -32,7 +32,7 @@ do
         }
     } while (salario2 <= 0 || salario2 <= salario1) ;
 
-    porcent = ((salario2 * 100) / salario1) - 100;
+    porcent = (salario2 - salario1) * 100 / salario1;
 
     Console.WriteLine($"\nO salário subiu {porcent}%\n");
 
